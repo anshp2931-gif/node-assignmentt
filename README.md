@@ -39,4 +39,4 @@ Build a REST API using Express.js that manages student CGPA records stored in an
 5. The API will be available at `http://localhost:3000`.
 
 ## Deployed Link
-[Render Deployment Link](https://student-cgpa-api.onrender.com) (Example placeholder)
+[Render Deployment Link](https://server-assignment1.onrender.com) (Example placeholder)
