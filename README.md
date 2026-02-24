@@ -40,3 +40,6 @@ Build a REST API using Express.js that manages student CGPA records stored in an
 
 ## Deployed Link
 [Render Deployment Link](https://server-assignment1.onrender.com) (Example placeholder)
+
+## Documentation Link
+[Postman Documentation Link](https://documenter.getpostman.com/view/50839333/2sBXcGCynT)

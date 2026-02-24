@@ -123,7 +123,7 @@ app.get("/students/average", (req, res) => {
 
     res.status(200).json({ averageCGPA: average });
 })
-
+    
 
 // ========================================= ques 4 =======================================
 
