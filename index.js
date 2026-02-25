@@ -146,16 +146,16 @@ app.put("/products/:id", (req, res) => {
 
 app.put("/products/:id/stock", (req, res) => {
 
-  const id = Number(req.params.id);
-  const product = products.find(p => p.id === id);
+    const id = Number(req.params.id);
+    const product = products.find(p => p.id === id);
 
-  if (!product) {
-    return res.status(404).json({ message: "Product not found" });
-  }
+    if (!product) {
+        return res.status(404).json({ message: "Product not found" });
+    }
 
-  product.stock = req.body.stock;
+    product.stock = req.body.stock;
 
-  res.status(200).json(product);
+    res.status(200).json(product);
 });
 
 // ========================================= 7 routes =======================================
@@ -163,16 +163,16 @@ app.put("/products/:id/stock", (req, res) => {
 
 app.put("/products/:id/price", (req, res) => {
 
-  const id = Number(req.params.id);
-  const product = products.find(p => p.id === id);
+    const id = Number(req.params.id);
+    const product = products.find(p => p.id === id);
 
-  if (!product) {
-    return res.status(404).json({ message: "Product not found" });
-  }
+    if (!product) {
+        return res.status(404).json({ message: "Product not found" });
+    }
 
-  product.price = req.body.price;
+    product.price = req.body.price;
 
-  res.status(200).json(product);
+    res.status(200).json(product);
 });
 
 
