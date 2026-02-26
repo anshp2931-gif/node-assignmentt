@@ -36,13 +36,7 @@ Build a REST API using Express.js that manages product records stored in an in-m
    npm install
    node index.js
 
-The API will be available at http://localhost:3000.
-
-Deployed Link
-
-Render Deployment Link
+Render Deployment Link https://node-assignmentt.onrender.com/products
  (Example placeholder)
 
-Documentation Link
-
-Postman Documentation Link
+Postman Documentation Link  https://documenter.getpostman.com/view/50839333/2sBXcGEzpp
